@@ -7,5 +7,7 @@ This program runs in ROS2 and is made with Python scripts.
 ## Instructions
 1. Clone the repository in your ROS2 workspace
    ```bash
-   git clone
-   ``` 
+   git clone https://github.com/leleviola/explab_ass1.git
+   ```
+
+2.
