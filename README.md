@@ -15,4 +15,16 @@ This program runs in ROS2 and is made with Python scripts.
    ```bash
    ros2 launch robot_urdf gazebo_aruco.launch.py
    ```
-
+4. Then, in a new terminal, run the aruco node
+   ```bash
+   ros2 run ros2_aruco aruco_node
+   ```
+5. Finally, to make robot start moving and detect aruco marker, run
+```bash
+   ros2 run robot_urdf marker_analysis1
+```
+(or 
+   ```bash
+   ros2 run robot_urdf marker_analysis2
+```
+)
