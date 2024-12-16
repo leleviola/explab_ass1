@@ -23,8 +23,8 @@ This program runs in ROS2 and is made with Python scripts.
 ```bash
    ros2 run robot_urdf marker_analysis1
 ```
-(or 
-   ```bash
+or
+```bash
    ros2 run robot_urdf marker_analysis2
-```
-)
+   ```
+
