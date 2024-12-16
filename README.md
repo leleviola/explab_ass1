@@ -13,5 +13,6 @@ This program runs in ROS2 and is made with Python scripts.
 2. Make sure you have the Ros aruco package in your ros2 repository (if not you can find it on github https://github.com/CarmineD8/ros2_aruco)
 3. After having builded the workspace, you can go in the src folder and run the environment from terminal using
    ```bash
-   ros2 launch robot_urdf 
+   ros2 launch robot_urdf gazebo_aruco.launch.py
    ```
+
