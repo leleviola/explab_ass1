@@ -4,10 +4,14 @@ There are 2 different nodes:
 - marker_analysis1: the robot look around by rotating itself;
 - marker_analysis2: the robot look around by rotating the camera.
 This program runs in ROS2 and is made with Python scripts.
-## Instructions
+## Usage Instructions
 1. Clone the repository in your ROS2 workspace
    ```bash
    git clone https://github.com/leleviola/explab_ass1.git
    ```
 
-2.
+2. Make sure you have the Ros aruco package in your ros2 repository (if not you can find it on github https://github.com/CarmineD8/ros2_aruco)
+3. After having builded the workspace, you can go in the src folder and run the environment from terminal using
+   ```bash
+   ros2 launch robot_urdf 
+   ```
